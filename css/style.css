@@ -1,0 +1,55 @@
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+  font-family: 'Anton', sans-serif;
+}
+
+p{
+  font-family: 'Jura', sans-serif;
+}
+
+
+
+.myNav img{
+  width: 100px;
+ }
+
+.jumbocopy{
+  justify-content: center;
+  background: rgba(255, 255, 255, 0.28);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.9px);
+  -webkit-backdrop-filter: blur(10.9px);
+  border: 1px solid rgba(255, 255, 255, 0.14);
+  width: 70%;
+  min-width: 500px;
+  max-width: 700px;
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+ 
+.work{
+  position: relative;
+  width: 500px;
+}
+
+
+.skills{
+}
+
+.hero{
+background-image: url("../images/istockphoto-1358013032-170667a.jpg");
+background-size: cover;
+height: 500px;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
