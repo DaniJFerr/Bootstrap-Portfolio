@@ -30,9 +30,43 @@ p{
     margin: auto 10px;
   }
 
+  .navbar-nav a{
+    font-size: 1.2rem;
+    margin: auto 10px;
+    transition: 100ms;
+    transform-origin: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+
+  .navbar-nav {
+    margin-left: auto;
+    margin-right: 0 !important;
+  }
+
+  .nav-link:hover{
+    position:static;
+    color: rgb(226, 101, 101);
+    background: rgba(54, 50, 50, 0.28);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(10.9px);
+    -webkit-backdrop-filter: blur(10.9px);
+    border-radius: 1px;
+    list-style: none;
+    font-weight: bold;
+    transform: scale(1.1);
+    text-decoration: none;
+  }
+
+  .btn{
+    background-color: rgb(226, 101, 101);
+  }
+
   .jumbotron {
     background-image: url("../images/background02.jpg");
-    background-size: 100%;
+    background-size: cover;
     background-repeat: no-repeat;
     height: calc(100vh - 25px);
     display: flex;
@@ -62,11 +96,35 @@ p{
   justify-content: center;
 }
 
+.carousel-inner{
+  font-size: 3rem;
+  transition: 100ms;
+    transform-origin: center;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    -o-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
 
-.containerContent{
+.carousel-inner img:hover{
+  position:static;
+  color: rgb(243, 240, 240);
+  background: rgba(54, 50, 50, 0.28);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10.9px);
+  -webkit-backdrop-filter: blur(10.9px);
+  border-radius: 1px;
+  list-style: none;
+  font-weight: bold;
+  font-size: 3em;
+  text-decoration: none;
+}
+
+
+#containerContent{
   background-color: rgb(226, 101, 101);
   justify-content: center;
-  padding: 100px 50px;
+  padding: 50px 50px;
 }
 
 .heading{
@@ -82,9 +140,27 @@ p{
   text-align: center;
   color: #fff;
   font-size: 2rem;
-  margin: auto 10px;
+  margin: auto 30px;
   background: rgb(226,101,101);
   background: linear-gradient(180deg, rgba(226,101,101,1) 0%, rgba(255,55,0,0) 100%, rgba(0,0,0,1) 100%);
+  transition: 500ms;
+  transform-origin: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.card:hover{
+  transition: 500ms;
+  transform: scale(1.05);
+  -webkit-box-shadow: 1px 1px 14px -1px #000000; 
+  box-shadow: 1px 1px 14px -1px #000000;
+}
+
+.card img{
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .row{
@@ -101,4 +177,27 @@ p{
   flex-direction: column;
   justify-content: center;
   height: 500px;
+}
+.contact{
+  margin-top: 50px;
+  width: 700px;
+}
+
+.contact li{
+  display: inline;
+}
+
+.contact img{
+  width: 50px;
+  margin: 50px;
+  transition: 500ms;
+  transform-origin: center;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact img:hover{ 
+  opacity: 50%;
 }
