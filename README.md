@@ -2,7 +2,7 @@
 
 The Bootstrap Portfolio is an EdX bootcamp project that uses the Bootstrap framework.
 
-## installation 
+## Installation 
 
 Use the boostrap CDN link to install the package on you HTML file:
 <!-- CSS only -->
