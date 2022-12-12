@@ -1,6 +1,6 @@
 # Bootstrap-Portfolio
 
-Boottrap potifolio is an project provide from edx bootcamp using boostrap framework.
+The Bootstrap Portfolio is an EdX bootcamp project that uses the Bootstrap framework.
 
 ## installation 
 
@@ -28,7 +28,7 @@ Build and customize with Sass, utilize prebuilt grid system and components, and 
 
 ## Authors and acknowledgment
 
-As a final project from modelule 3 Edx and Trollogy bootcamp, this project was supported by the instructor and TA's.
+This was the final project for the Edx and Trillogy bootcamp module 3. The instructor and TAs provided assistance during the module to complete the final project.
 
 ## License 
 
